@@ -18,11 +18,11 @@ It’s recommended to use a virtual environment to keep dependencies isolated.
 python -m venv venv
 
 # Activate the environment
-# On Windows:
-venv\Scripts\activate
+On Windows:
+  venv\Scripts\activate
 
-# On macOS/Linux:
-source venv/bin/activate
+On macOS/Linux:
+  source venv/bin/activate
 
 3. Install Dependencies
 
