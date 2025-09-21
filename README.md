@@ -1,4 +1,4 @@
-Agentic AI
+#Agentic AI
 
 A project exploring agent-based AI systems.
 
@@ -14,10 +14,10 @@ cd Agentic-AI
 
 It’s recommended to use a virtual environment to keep dependencies isolated.
 
-# Create a virtual environment
+Create a virtual environment
 python -m venv venv
 
-# Activate the environment
+Activate the environment
 On Windows:
   venv\Scripts\activate
 
