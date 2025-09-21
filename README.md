@@ -1,4 +1,4 @@
-#Agentic AI
+# Agentic AI
 
 A project exploring agent-based AI systems.
 
