@@ -83,14 +83,14 @@ class Me:
 
     def __init__(self):
         self.gemini = OpenAI(base_url=GEMINI_BASE_URL, api_key=google_api_key)
-        self.name = "Mandar jadhav"
+        self.name = "YOUR_NAME"
         reader = PdfReader("me/Profile.pdf")
         self.linkedin = ""
         for page in reader.pages:
             text = page.extract_text()
             if text:
                 self.linkedin += text
-        reader_1 = PdfReader("me/Mandar Jadhav MAIN_3.pdf")
+        reader_1 = PdfReader("me/RESUME.pdf")
         self.linkedin = ""
         for page in reader_1.pages:
             text = page.extract_text()
@@ -141,4 +141,5 @@ If the user is engaging in discussion, try to steer them towards getting in touc
 if __name__ == "__main__":
     me = Me()
     gr.ChatInterface(me.chat, type="messages").launch()
+
     
